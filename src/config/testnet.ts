@@ -1,16 +1,15 @@
 import {ChainId} from '@layerzerolabs/lz-sdk';
-import {Token} from '@layerzerolabs/x-trader-joe-bridge';
+import {Token} from 'x-shibx-bridge';
 
 const tokens = [
-  new Token(ChainId.FUJI, '0xcc14EcF814aAC6015bb38bc87296F28f8470eE13', 18, 'JOE'),
-  new Token(ChainId.BSC_TESTNET, '0x845C442d3B6B5cCC32Fd0192b196b8e155Db508B', 18, 'JOE'),
-  new Token(ChainId.ARBITRUM_GOERLI, '0x0cCd82C5E94F93913b3227B8069F598E2708d442', 18, 'JOE'),
+  new Token(ChainId.FUJI, '0x6B23b44032eeabE2d4B543Fd043458a1f4a97C67', 18, 'SHIBX'),
+  new Token(ChainId.ARBITRUM_GOERLI, '0x13A60f9bb70adcF2D72b8132e6F011AbeFA68490', 18, 'SHIBX'),
 ];
 
 const proxy = [
   {
     chainId: ChainId.FUJI,
-    address: '0x4Fb062cA2F036576C78e5D91B94Cb60FbAaFEe80',
+    address: '0x1589a034c8698FE7381364d1b0eE0e1E8a0bA369',
   },
 ];
 
