@@ -7,7 +7,7 @@ import {
   themeLight,
   ThemeProvider,
   createWagmiProvider,
-} from "@layerzerolabs/x-trader-joe-bridge";
+} from "x-shibx-bridge";
 
 import { wagmi } from "./config/wagmi";
 import { testnet } from "./config/testnet";
@@ -48,7 +48,7 @@ const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
         minHeight: "100vh",
         minWidth: "100vw",
         justifyContent: "center",
-        background: "#F0F0FF",
+        background: "#F5F3EE",
       }}
     >
       {children}
