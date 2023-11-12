@@ -4,7 +4,7 @@ import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 import { avalanche, arbitrum, bsc } from "@wagmi/core/chains";
 
-import { createWagmiAdapter } from "x-shibx-bridge";
+import { createWagmiAdapter } from "x-baguette-bridge";
 
 const { chains: wagmiChains, provider } = configureChains(
   // provide wagmi chain configuration

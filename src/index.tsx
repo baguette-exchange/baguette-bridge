@@ -7,7 +7,7 @@ import {
   themeLight,
   ThemeProvider,
   createWagmiProvider,
-} from "x-shibx-bridge";
+} from "x-baguette-bridge";
 
 import { wagmi } from "./config/wagmi";
 import { testnet } from "./config/testnet";

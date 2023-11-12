@@ -1,5 +1,5 @@
 import {ChainId} from '@layerzerolabs/lz-sdk';
-import {Token} from 'x-shibx-bridge';
+import {Token} from 'x-baguette-bridge';
 
 const tokens = [
   new Token(ChainId.ARBITRUM, '0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07', 18, 'SHIBX'),

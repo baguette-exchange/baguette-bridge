@@ -1,5 +1,5 @@
 import {ChainId} from '@layerzerolabs/lz-sdk';
-import {Token} from 'x-shibx-bridge';
+import {Token} from 'x-baguette-bridge';
 
 const tokens = [
   new Token(ChainId.FUJI, '0x6B23b44032eeabE2d4B543Fd043458a1f4a97C67', 18, 'SHIBX'),
