@@ -2,7 +2,7 @@ import { getDefaultWallets } from "@rainbow-me/rainbowkit";
 import { configureChains, createClient } from "wagmi";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
-import { avalanche, arbitrum, bsc } from "@wagmi/core/chains";
+import { avalanche, arbitrum } from "@wagmi/core/chains";
 
 import { createWagmiAdapter } from "x-baguette-bridge";
 
